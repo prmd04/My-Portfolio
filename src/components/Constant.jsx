@@ -21,15 +21,15 @@ import netlifyLogo from '../assets/tech_logo/netlify.png';
 import vercelLogo from '../assets/tech_logo/vercel.png';
 import postgreLogo from '../assets/tech_logo/postgre.png';
 import axiosLogo from '../assets/tech_logo/axios.png'
-import financy from '../assets/project_pic/financy.jpg'
-import socialmedia from '../assets/project_pic/socialmedia.jpg'
-import githubwrapper from '../assets/project_pic/githubwrapper.jpg'
-import pager from '../assets/project_pic/pager.jpg'
-import postoffice from '../assets/project_pic/postoffice.jpg'
-import resumeBuilder from '../assets/project_pic/resume.jpg'
-import shoppingCart from '../assets/project_pic/shopping-cart-redux.jpg'
-import memoryGame from '../assets/project_pic/memory-game.jpg'
-import movieSearch from '../assets/project_pic/moviesearch.jpg'
+import financy from '../assets/project_pic/financy.JPG'
+import socialmedia from '../assets/project_pic/socialmedia.JPG'
+import githubwrapper from '../assets/project_pic/githubwrapper.JPG'
+import pager from '../assets/project_pic/pager.JPG'
+import postoffice from '../assets/project_pic/postoffice.JPG'
+import resumeBuilder from '../assets/project_pic/resume.JPG'
+import shoppingCart from '../assets/project_pic/shopping-cart-redux.JPG'
+import memoryGame from '../assets/project_pic/memory-game.JPG'
+import movieSearch from '../assets/project_pic/moviesearch.JPG'
 import bncoe from '../assets/edu_logo/bncoe.png'
 
 export const SkillsInfo = [
@@ -181,7 +181,7 @@ export const projects = [
     {
       id: 0,
        img: bncoe,
-      school: "Babasaheb Naik College of Enigineering , Pusad",
+      school: "Babasaheb Naik College of Engineering , Pusad",
       date: "July 2022",
       grade: "8.02 CGPA",
       desc: "I have completed my Bachelor’s degree (B.E.) in Information Technology from SGBAU – Sant Gadge Baba Amravati University. During my studies, I built a strong foundation in programming, software development, and core computer science concepts. I covered key subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I also participated in technical events and workshops that helped enhance my practical skills and broaden my understanding of real-world development. My experience at SGBAU has played a significant role in shaping my technical knowledge and overall professional growth.",
