@@ -29,27 +29,27 @@ function App() {
 
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-size-[14px_24px] mask-[radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
 
-      <div className="relative pt-20 z-10">
+      <div className="relative pt-20 z-10" style={{ scrollMarginTop: "100px" }}>
         <Navbar />
 
         {/* Add section wrappers with ids */}
-        <section id="about">
+        <section id="about" className="min-h-screen">
           <About />
         </section>
 
-        <section id="skills">
+        <section id="skills" className="min-h-screen">
           <Skills />
         </section>
 
-       <section id="project" className="min-h-[80vh]"> 
+       <section id="project" className="min-h-screen"> 
           <Project />
       </section>
 
-      <section id="education" className="min-h-[80vh]">
+      <section id="education" className="min-h-screen">
         <Education />
       </section>
 
-        <section id="contact">
+        <section id="contact" className="min-h-screen">
           <Contact />
         </section>
 
