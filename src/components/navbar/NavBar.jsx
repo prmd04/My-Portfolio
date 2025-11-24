@@ -59,7 +59,7 @@ const Navbar = () => {
           className="hover:text-[#8245ec]"
           ><FaGithub size={24} /></a>
          <a
-          href="https://www.linkedin.com/in/pramod-ade/"
+          href="https://www.linkedin.com/in/pramod-ade"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#8245ec]"
