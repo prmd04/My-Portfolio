@@ -1,5 +1,9 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram} from "react-icons/fa";
+import { 
+  SiLeetcode, 
+  SiGeeksforgeeks 
+} from "react-icons/si";
 
 const Footer = () => {
   // Smooth scroll function
@@ -37,11 +41,13 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
+            { icon: <SiGeeksforgeeks />, link: "https://www.geeksforgeeks.org/user/prmd04/" },
+            { icon: <SiLeetcode />, link: "https://leetcode.com/u/prmd04/" },
             { icon: <FaFacebook />, link: "https://www.facebook.com/prmd0404/" },
             { icon: <FaTwitter />, link: "https://x.com/ade_pramod" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/pramod-ade/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/_ade_pramod_/" },
-            // { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
+            
             
           ].map((item, index) => (
             <a
