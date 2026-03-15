@@ -4,10 +4,11 @@ import javascriptLogo from '../assets/tech_logo/javascript.png';
 import reactjsLogo from '../assets/tech_logo/reactjs.png';
 import reduxLogo from '../assets/tech_logo/redux.png';
 import tailwindcssLogo from '../assets/tech_logo/tailwindcss.png';
-import materialuiLogo from '../assets/tech_logo/materialui.png';
 import bootstrapLogo from '../assets/tech_logo/bootstrap.png';
-import mysqlLogo from '../assets/tech_logo/mysql.png';
+import expressjsLogo from '../assets/tech_logo/expressjs.logo.png';
 import firebaseLogo from '../assets/tech_logo/firebase.png';
+import mongodbLogo from '../assets/tech_logo/mongodb.logo.png';
+import nodejsLogo from '../assets/tech_logo/nodejs.png';
 import cLogo from '../assets/tech_logo/c.png';
 import cppLogo from '../assets/tech_logo/cpp.png';
 import javaLogo from '../assets/tech_logo/java.png';
@@ -19,8 +20,8 @@ import postmanLogo from '../assets/tech_logo/postman.png';
 import figmaLogo from '../assets/tech_logo/figma.png';
 import netlifyLogo from '../assets/tech_logo/netlify.png';
 import vercelLogo from '../assets/tech_logo/vercel.png';
-import postgreLogo from '../assets/tech_logo/postgre.png';
 import axiosLogo from '../assets/tech_logo/axios.png'
+import zesto from '../assets/project_pic/zesto.JPG'
 import financy from '../assets/project_pic/financy.JPG'
 import socialmedia from '../assets/project_pic/socialmedia.JPG'
 import githubwrapper from '../assets/project_pic/githubwrapper.JPG'
@@ -32,6 +33,7 @@ import memoryGame from '../assets/project_pic/memory-game.JPG'
 import movieSearch from '../assets/project_pic/moviesearch.JPG'
 import bncoe from '../assets/edu_logo/bncoe.png'
 
+
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -42,16 +44,16 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'ExpressJs', logo: expressjsLogo },
+      { name: 'NodeJs', logo: nodejsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Firebase', logo: firebaseLogo }
     ],
   },
   {
@@ -80,6 +82,16 @@ export const SkillsInfo = [
 ];
 
 export const projects = [
+    {
+      id: 9,
+      title: "Zesto – Multi-Vendor Food Delivery Platform",
+      description:
+        "Zesto is a full-stack food delivery platform that connects customers, restaurant owners, and delivery partners in a single system. Users can browse restaurants, place orders, and track deliveries in real time, while vendors manage menus and orders through a dedicated dashboard. Delivery partners receive assignments and update order status throughout the delivery process. The platform is built using MongoDB, Express.js, React, and Node.js, with secure payment integration and dynamic order management.",
+       image: zesto,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "React-Router-Dom","TailwindCSS","Node.js","Express.js","MongoDB","Google Firebase","React-Toastify",],
+      github: "https://github.com/prmd04/Zesto-",
+      webapp: "https://zesto.onrender.com/",
+    },
     {
       id: 0,
       title: "Financy Personal Finance Tracker",
