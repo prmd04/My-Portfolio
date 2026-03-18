@@ -23,6 +23,7 @@ import vercelLogo from '../assets/tech_logo/vercel.png';
 import axiosLogo from '../assets/tech_logo/axios.png'
 import zesto from '../assets/project_pic/zesto.JPG'
 import financy from '../assets/project_pic/financy.JPG'
+import codeReviw from '../assets/project_pic/code-review.JPG'
 import socialmedia from '../assets/project_pic/socialmedia.JPG'
 import githubwrapper from '../assets/project_pic/githubwrapper.JPG'
 import pager from '../assets/project_pic/pager.JPG'
@@ -101,6 +102,16 @@ export const projects = [
       tags: ["HTML", "CSS", "JavaScript", "React JS", "React-Router-Dom","Google Firebase","React-Toastify","Ant Design"],
       github: "https://github.com/prmd04/Financy-Personal-finance-Tracker",
       webapp: "https://financy-personal-finance-tracker-prmd.netlify.app/",
+    },
+     {
+      id: 10,
+      title: "Code Review",
+      description:
+        "An interactive web application that allows users to write JavaScript code and receive instant AI-powered feedback, suggestions, and improvements in a structured markdown format.",
+       image: codeReviw,
+      tags: ["HTML", "CSS", "JavaScript", "React", "React-Router-Dom", "React-Redux","React-Markdown"],
+      github: "https://github.com/prmd04/code-review",
+      webapp: "https://code-review-xawa.onrender.com",
     },
     {
       id: 1,
